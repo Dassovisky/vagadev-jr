@@ -1,0 +1,27 @@
+@import 'variaveis';
+
+.footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    float: left;
+
+    .logo{
+        display: flex;
+        justify-content: flex-end;
+        padding: .8rem 3rem;
+        background-color: $color_1;
+    }
+
+    .direitos{
+        display: flex;
+        padding: .8rem 3rem;
+        background-color: $color_2;
+
+        p{
+            margin: .3rem 0;
+        }
+
+    }
+
+}
