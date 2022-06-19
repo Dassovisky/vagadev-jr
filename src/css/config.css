@@ -11,6 +11,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " "; }
+
+.clearfix:after,
+.container:after,
+.row:after {
+  clear: both; }
+
 .container {
   padding: 0 15px;
   margin-right: auto;

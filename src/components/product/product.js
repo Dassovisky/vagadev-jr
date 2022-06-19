@@ -10,36 +10,37 @@ const Product = () => {
 
             <div className="container"> 
                 <h1 className="product_title"><img src={Square} alt="quadrado" /> Produtos em destaque</h1>
-
-                <div className="product_container">    
-                    <div className="col_3">
-                        <div className="product">
-                            <img src={Outriders} alt="" />
-                            <div className="pricebox">
-                                <h5>Outriders</h5>
-                                <p>R$ 200,00</p>
-                                <button>COMPRAR</button>
+                <div className="row">
+                    <div className="product_container">    
+                        <div className="col_3">
+                            <div className="product">
+                                <img src={Outriders} alt="" />
+                                <div className="pricebox">
+                                    <h5>Outriders</h5>
+                                    <p>R$ 200,00</p>
+                                    <button>COMPRAR</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col_3">
-                        <div className="product">
-                            <img src={Cyberpunk} alt="" />
-                            <div className="pricebox">
-                                <h5>CYBERPUNK 2077</h5>
-                                <p>R$ 200,00</p>
-                                <button>COMPRAR</button>
+                        <div className="col_3">
+                            <div className="product">
+                                <img src={Cyberpunk} alt="" />
+                                <div className="pricebox">
+                                    <h5>CYBERPUNK 2077</h5>
+                                    <p>R$ 200,00</p>
+                                    <button>COMPRAR</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="col_3">
-                        <div className="product">
-                            <img src={Donkey} alt="" />
-                            <div className="pricebox">
-                                <h5>Donkey Kong Country Tropical Freeze</h5>
-                                <p>R$ 200,00</p>
-                                <button>COMPRAR</button>
+                        <div className="col_3">
+                            <div className="product">
+                                <img src={Donkey} alt="" />
+                                <div className="pricebox">
+                                    <h5>Donkey Kong Country Tropical Freeze</h5>
+                                    <p>R$ 200,00</p>
+                                    <button>COMPRAR</button>
+                                </div>
                             </div>
                         </div>
                     </div>

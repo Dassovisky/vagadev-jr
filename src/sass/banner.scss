@@ -1,0 +1,50 @@
+@import 'variaveis';
+
+.justify{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    
+
+    img{
+        width: 100%;
+        height: auto; 
+    }
+
+    .banner_name{
+        margin: -5px 0 0 0;
+        padding: 0 .5rem 0 0;
+        background-color: $color_2;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+
+       .line_1{
+            width: 20px;
+            height: 55px;
+            float: left;
+            border-left: 5px solid $color_1;
+        }
+        .line_2{
+            width: 35%;
+            height: 1px;
+            background-color: $color_1;
+        }
+        p{
+            float: left;
+            margin: 0 2.5rem 0 0;
+            padding: .4rem 0;
+            font-size: .8rem;
+            font-weight: 700;
+            color: $color_1;
+        }
+
+    }
+
+}

@@ -1,13 +1,14 @@
-import Product from './components/footer/footer'
-import Footer from './components/product/product'
+import Footer from './components/footer/footer'
+import Product from './components/product/product'
+import Banner from './components/banner/banner'
 
 function App() {
   return (
     <>
 
+      <Banner />
+      <Product />  
       <Footer />
-
-      <Product />
 
     </>
   );
