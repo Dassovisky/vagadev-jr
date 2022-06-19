@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,WAAW;EACP,OAAO,EAAE,CAAC",
+"sources": ["../sass/variaveis.scss"],
+"names": [],
+"file": "variaveis.css"
+}

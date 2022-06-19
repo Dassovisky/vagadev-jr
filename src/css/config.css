@@ -1,0 +1,73 @@
+html {
+  font-family: 'Roboto';
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.container {
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px; }
+
+@media (min-width: 992px) {
+  .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+    float: left; }
+
+  .col_12 {
+    width: 100%; }
+
+  .col_11 {
+    width: 91.66666667%; }
+
+  .col_10 {
+    width: 83.33333333%; }
+
+  .col_9 {
+    width: 75%; }
+
+  .col_8 {
+    width: 66.66666667%; }
+
+  .col_7 {
+    width: 58.33333333%; }
+
+  .col_6 {
+    width: 50%; }
+
+  .col_5 {
+    width: 41.66666667%; }
+
+  .col_4 {
+    width: 33.33333333%; }
+
+  .col_3 {
+    width: 25%; }
+
+  .col_2 {
+    width: 16.66666667%; }
+
+  .col_1 {
+    width: 8.33333333%; } }
+
+/*# sourceMappingURL=config.css.map */

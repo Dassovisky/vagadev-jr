@@ -5,20 +5,30 @@
     height: auto;
     color: #fff;
     float: left;
-
+    
     .logo{
+        height: 50px;
         display: flex;
         justify-content: flex-end;
-        padding: .8rem 3rem;
+        align-items: center;
+        padding: 0 2rem;
         background-color: $color_1;
+
+        img{
+            width: 35px;
+            height: 25px;
+        }
     }
 
     .direitos{
+        height: 50px;
         display: flex;
-        padding: .8rem 3rem;
+        align-items: center;
+        padding: 0 2rem;
         background-color: $color_2;
 
         p{
+            font-size: .8rem;
             margin: .3rem 0;
         }
 

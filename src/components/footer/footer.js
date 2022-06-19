@@ -5,18 +5,18 @@ const Footer = () => {
     return(
         <div>
 
-            <div className="footer">
-                <div className="col-md-3">
+            <footer className="footer">
+                <div className="col_3 no_padding">
                     <div className="logo">
                         <img src={Logo} alt="" />
                     </div> 
                 </div>
-                <div className="col-md-push-4">
+                <div className="col_9 no_padding">
                     <div className="direitos">
                         <p>Agência N1 - Todos os direitos reservados</p>
                     </div>
                 </div>
-            </div>
+            </footer>
 
         </div>
     )
