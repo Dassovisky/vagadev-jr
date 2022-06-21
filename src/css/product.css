@@ -61,6 +61,10 @@
         width: 5rem;
         height: auto;
         display: block; }
+      .product .pricebox .button_default:focus .product_buy, .product .pricebox .button_mario:focus .product_buy {
+        display: block; }
+      .product .pricebox .button_default:focus .productbg, .product .pricebox .button_mario:focus .productbg {
+        display: block; }
     .product .pricebox .button_mario {
       padding: 1rem 2rem;
       text-align: left;

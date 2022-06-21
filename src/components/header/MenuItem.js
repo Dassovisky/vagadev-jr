@@ -2,7 +2,6 @@ import React from 'react';
 import '../../css/menu-item.css'
 
 
-
 const MenuItem = () => {
     return(
         <div>

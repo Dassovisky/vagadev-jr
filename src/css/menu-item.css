@@ -22,7 +22,8 @@
     text-decoration: none; }
   .menu_item ul {
     float: left;
-    padding: 0; }
+    padding: 0;
+    text-align: left; }
     .menu_item ul .menu_item_category {
       font-size: 1rem;
       font-weight: bold;
@@ -34,6 +35,7 @@
       padding: .5rem 5rem .5rem 1rem;
       list-style-type: none;
       cursor: pointer;
-      border-radius: 5px; }
+      border-radius: 5px;
+      color: #fff; }
       .menu_item ul li:hover {
         background-color: #3EC6E0; }

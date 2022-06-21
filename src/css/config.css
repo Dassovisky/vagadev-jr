@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Medium.ttf");
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }

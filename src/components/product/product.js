@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import '../../css/product.css'
 import Square from '../../assets/icons/square.png'
 import Outriders from '../../assets/img/product-outriders.png'
 import Cyberpunk from '../../assets/img/product-cyberpunk2077.png'
 import Donkey from '../../assets/img/product-donkey-kong-country-tropical-freeze.png'
 import Mario from '../../assets/icons/mario.png'
-
+import ProductBuy from '../product/product-buy'
 
 const Product = () => {
 
@@ -15,7 +15,6 @@ const Product = () => {
 
     const toogle1 = () => {
         setState1(!state1)
-        
     }
     const toogle2 = () => {
         setState2(!state2)
@@ -41,6 +40,7 @@ const Product = () => {
                                     <p>R$ 200,00</p>
                                     <button className={"button_default" + (state1 ? " button_mario" : "")} onClick={toogle1}>{state1 ? "COMPRADO!" : "COMPRAR"} 
                                         <img src={Mario} alt="" className={"img_mario" + (state1 ? " img_mario_toggle" : "")}/>
+                                        <ProductBuy />
                                     </button>
                                 </div>
                             </div>
@@ -53,6 +53,7 @@ const Product = () => {
                                     <p>R$ 200,00</p>
                                     <button className={"button_default" + (state2 ? " button_mario" : "")} onClick={toogle2}>{state2 ? "COMPRADO!" : "COMPRAR"} 
                                         <img src={Mario} alt="" className={"img_mario" + (state2 ? " img_mario_toggle" : "")}/>
+                                        <ProductBuy />
                                     </button>
                                 </div>
                             </div>
@@ -66,6 +67,7 @@ const Product = () => {
                                     <p>R$ 200,00</p>
                                     <button className={"button_default" + (state3 ? " button_mario" : "")} onClick={toogle3}>{state3 ? "COMPRADO!" : "COMPRAR"} 
                                         <img src={Mario} alt="" className={"img_mario" + (state3 ? " img_mario_toggle" : "")}/>
+                                        <ProductBuy />
                                     </button>
                                 </div>
                             </div>
