@@ -1,6 +1,10 @@
 .no_padding {
   padding: 0; }
 
+.flex-end {
+  display: flex;
+  justify-content: flex-end; }
+
 .product_title {
   color: #084154;
   font-weight: 300; }
@@ -36,7 +40,7 @@
       font-weight: 900;
       font-size: 1.2rem;
       color: #084154; }
-    .product .pricebox button {
+    .product .pricebox .button_default, .product .pricebox .button_mario {
       width: 100%;
       height: auto;
       font-weight: bold;
@@ -46,4 +50,18 @@
       cursor: pointer;
       color: #fff;
       background: #3EC6E0;
-      border-radius: 5px; }
+      border-radius: 5px;
+      transition: 0.5s ease-in-out; }
+      .product .pricebox .button_default .img_mario, .product .pricebox .button_mario .img_mario {
+        display: none; }
+      .product .pricebox .button_default .img_mario_toggle, .product .pricebox .button_mario .img_mario_toggle {
+        position: absolute;
+        bottom: 57px;
+        right: 60px;
+        width: 5rem;
+        height: auto;
+        display: block; }
+    .product .pricebox .button_mario {
+      padding: 1rem 2rem;
+      text-align: left;
+      background: #084154; }
