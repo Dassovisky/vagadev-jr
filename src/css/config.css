@@ -39,6 +39,15 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
+@media (max-width: 768px) {
+  .justify {
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+
+  .product_container {
+    display: flex;
+    flex-direction: column; } }
 .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
   position: relative;
   min-height: 1px;
@@ -83,5 +92,3 @@ body {
 
   .col_1 {
     width: 8.33333333%; } }
-
-/*# sourceMappingURL=config.css.map */

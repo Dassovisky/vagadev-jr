@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../css/product.css'
 import Square from '../../assets/icons/square.png'
 import Outriders from '../../assets/img/product-outriders.png'

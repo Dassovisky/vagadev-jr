@@ -1,0 +1,60 @@
+.no_padding {
+  padding: 0; }
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end; }
+
+.header {
+  color: #fff;
+  background-color: #000; }
+  .header .row {
+    display: flex;
+    align-items: center; }
+  .header .main_menu_button button {
+    border: 0;
+    cursor: pointer;
+    background: transparent; }
+  .header .main_menu_button img {
+    width: 1.7rem; }
+  .header .main_menu_logo {
+    width: 100%;
+    height: auto;
+    padding: 1.2rem 0; }
+    .header .main_menu_logo img {
+      width: 100%;
+      height: auto; }
+  .header .main_menu_list {
+    margin: 0;
+    list-style-type: none;
+    display: inline-block; }
+    .header .main_menu_list a {
+      text-decoration: none;
+      color: #fff;
+      border-right: 1px solid #fff;
+      margin: 0 3rem 0 0;
+      padding: .3rem 3rem .3rem 0; }
+      .header .main_menu_list a:last-child {
+        margin: 0;
+        padding: 0; }
+      .header .main_menu_list a:last-child {
+        border: 0; }
+    .header .main_menu_list img {
+      position: relative;
+      top: 5px;
+      width: 1.3rem;
+      margin: 0 .5rem 0 0; }
+    .header .main_menu_list li {
+      width: auto;
+      font-size: .9rem;
+      font-weight: bold;
+      display: inline-block;
+      list-style-type: none; }
+    .header .main_menu_list .bag_button {
+      position: relative;
+      left: -5px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #3EC6E0; }

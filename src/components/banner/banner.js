@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../css/banner.css'
 import Zelda from '../../assets/img/zelda_banner.jpg'
 import Sekiro from '../../assets/img/sekiro_banner.jpg'

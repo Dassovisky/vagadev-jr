@@ -1,0 +1,88 @@
+@import 'variaveis';
+
+.header{
+    color: #fff;
+    background-color: #000;
+
+    .row{
+        display: flex;
+        align-items: center;
+    }
+
+    .main_menu_button{
+        
+        button{
+            border: 0;
+            cursor: pointer;
+            background: transparent;
+        }
+        
+        img {
+            width: 1.7rem;
+        }
+
+    }
+
+    .main_menu_logo{
+        width: 100%;
+        height: auto;
+        padding: 1.2rem 0;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    .main_menu_list{
+        margin: 0;
+        list-style-type: none;
+        display: inline-block;
+
+        a{
+            text-decoration: none;
+            color: #fff;
+            border-right: 1px solid #fff;
+            margin: 0 3rem 0 0;
+            padding: .3rem 3rem .3rem 0;
+
+            &:last-child{
+                margin: 0;
+                padding: 0;
+            }
+
+            &:last-child{
+                border: 0;
+            }
+
+        }
+
+        img{
+            position: relative;
+            top: 5px;
+            width: 1.3rem;
+            margin: 0 .5rem 0 0;
+        }
+
+        li{
+            width: auto;
+            font-size: .9rem;
+            font-weight: bold;
+            display: inline-block;
+            list-style-type: none;          
+        }
+
+        .bag_button{
+            position: relative;
+            left: -5px;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: $color_2;
+        }
+
+    }
+
+}
