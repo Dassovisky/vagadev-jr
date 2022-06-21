@@ -1,0 +1,50 @@
+@import 'variaveis';
+
+.menu_item{
+    position: absolute;
+    top: 70px;
+    padding: 1rem 1.5rem;
+    border: 2px solid $color_2;
+    border-radius: 5px;
+    background-color: $color_1;
+    z-index: 1;
+    -webkit-box-shadow: 10px 10px 0px -1px rgba(62,198,224,1);
+    -moz-box-shadow: 10px 10px 0px -1px rgba(62,198,224,1);
+    box-shadow: 10px 10px 0px -1px rgba(62,198,224,1);
+    display: none;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        float: left;
+        padding: 0;
+
+        .menu_item_category{
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: default;
+
+            &:hover{
+                background-color: transparent;
+            }
+        }
+
+        li{
+            font-size: .8rem;
+            padding: .5rem 5rem .5rem 1rem;
+            list-style-type: none;
+            cursor: pointer;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: $color_2;
+            }
+
+        }
+
+    }
+
+}

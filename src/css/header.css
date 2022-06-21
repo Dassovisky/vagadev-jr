@@ -5,9 +5,51 @@
   display: flex;
   justify-content: flex-end; }
 
+.no_padding {
+  padding: 0; }
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end; }
+
+.menu_item {
+  position: absolute;
+  top: 70px;
+  padding: 1rem 1.5rem;
+  border: 2px solid #3EC6E0;
+  border-radius: 5px;
+  background-color: #084154;
+  z-index: 1;
+  -webkit-box-shadow: 10px 10px 0px -1px #3ec6e0;
+  -moz-box-shadow: 10px 10px 0px -1px #3ec6e0;
+  box-shadow: 10px 10px 0px -1px #3ec6e0;
+  display: none; }
+  .menu_item a {
+    color: #fff;
+    text-decoration: none; }
+  .menu_item ul {
+    float: left;
+    padding: 0; }
+    .menu_item ul .menu_item_category {
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: default; }
+      .menu_item ul .menu_item_category:hover {
+        background-color: transparent; }
+    .menu_item ul li {
+      font-size: .8rem;
+      padding: .5rem 5rem .5rem 1rem;
+      list-style-type: none;
+      cursor: pointer;
+      border-radius: 5px; }
+      .menu_item ul li:hover {
+        background-color: #3EC6E0; }
+
 .header {
   color: #fff;
   background-color: #000; }
+  .header:hover > .menu_item {
+    display: none; }
   .header .row {
     display: flex;
     align-items: center; }

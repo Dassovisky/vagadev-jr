@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 import '../../css/header.css'
 import Logo from '../../assets/img/Logo_N1_Rush.png'
 import Menu from '../../assets/icons/menu.png'
 import Plane from '../../assets/icons/paper-plane.png'
 import Search from '../../assets/icons/search-solid.png'
 import Bag from '../../assets/icons/shopping-bag-solid.png'
+import MenuItem from './MenuItem'
 
 const Header = () => {
     return(
@@ -13,7 +14,7 @@ const Header = () => {
             <header className="header">
                 <div className="container">
                     <div className="row">
-                        
+                    < MenuItem />
                         <div className="col_1 no_padding">
                             <div className="main_menu_button">
                                 <button><img src={Menu} alt="" /></button>

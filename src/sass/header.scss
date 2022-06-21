@@ -1,8 +1,13 @@
 @import 'variaveis';
+@import 'menu-item';
 
 .header{
     color: #fff;
     background-color: #000;
+    
+    &:hover > .menu_item{
+        display: none;
+    }
 
     .row{
         display: flex;
@@ -86,3 +91,4 @@
     }
 
 }
+
