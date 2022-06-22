@@ -17,7 +17,7 @@
 
 .product_buy {
   position: fixed;
-  width: 20rem;
+  width: 22rem;
   left: 50%;
   top: 35%;
   float: left;
@@ -49,17 +49,19 @@
     text-align: center; }
     .product_buy .product_buy_title::before {
       position: absolute;
-      top: 80px;
+      top: 75px;
       left: 0;
+      color: #084154;
       content: '_________'; }
     .product_buy .product_buy_title::after {
       position: absolute;
-      top: 80px;
+      top: 75px;
       right: 0;
+      color: #084154;
       content: '_________'; }
     .product_buy .product_buy_title p {
       color: #084154;
-      font-size: 1.5rem; }
+      font-size: 1.4rem; }
   .product_buy .product_buy_mario {
     text-align: center; }
     .product_buy .product_buy_mario img {

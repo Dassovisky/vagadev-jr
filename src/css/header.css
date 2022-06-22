@@ -15,7 +15,7 @@
 .menu_item {
   position: absolute;
   top: 70px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   border: 2px solid #3EC6E0;
   border-radius: 5px;
   background-color: #084154;
@@ -39,7 +39,7 @@
         background-color: transparent; }
     .menu_item ul li {
       font-size: .8rem;
-      padding: .5rem 5rem .5rem 1rem;
+      padding: .5rem 4rem .5rem 1rem;
       list-style-type: none;
       cursor: pointer;
       border-radius: 5px;

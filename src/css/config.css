@@ -1,12 +1,13 @@
 html {
   font-family: 'Roboto';
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden; }
 
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto-Medium.ttf");
+  src: url("../fonts/Roboto-Regular.ttf"), "../fonts/Roboto-Medium.ttf", "../fonts/Roboto-Bold.ttf", "../fonts/Roboto-Light.ttf";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }

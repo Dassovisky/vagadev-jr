@@ -10,6 +10,8 @@
   justify-content: center; }
 
 .banner {
+  position: relative;
+  margin: -8rem 0 0 0;
   width: 100%;
   height: auto;
   padding: 1rem 0; }

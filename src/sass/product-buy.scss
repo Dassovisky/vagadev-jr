@@ -13,7 +13,7 @@
 
 .product_buy{ 
     position: fixed;
-    width: 20rem;
+    width: 22rem;
     left: 50%;
     top: 35%;
     float: left;
@@ -52,21 +52,23 @@
 
         &::before{
             position: absolute;
-            top: 80px;
+            top: 75px;
             left: 0;
+            color: $color_1;
             content: '_________';
         }
 
         &::after{
             position: absolute;
-            top: 80px;
+            top: 75px;
             right: 0;
+            color: $color_1;
             content: '_________';
         }
         
         p{
             color: $color_1;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
     }

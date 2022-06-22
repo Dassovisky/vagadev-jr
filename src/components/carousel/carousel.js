@@ -1,45 +1,67 @@
-// import React, { Component } from "react"
-// import Slider from "react-slick"
-// import '../../css/carousel.css'
-// // import Logoo from '../../assets/img/Logo_N1_Rush.png'
-// import "slick-carousel/slick/slick.css"; 
-// import "slick-carousel/slick/slick-theme.css";
+import React, { Component } from "react"
+import Slider from "react-slick"
+import '../../css/carousel.css'
+import Mortal from '../../assets/img/principal_banner_desktop.jpg'
+import Red from '../../assets/img/principal_banner_desktop_02.jpg'
 
-// class SimpleSlider extends Component {
-//     render() {
-//       const settings = {
-//         dots: true,
-//         infinite: true,
-//         speed: 500,
-//         slidesToShow: 1,
-//         slidesToScroll: 1
-//       };
-//       return (
-//         <div>
-//           <h2> Single Item</h2>
-//           <Slider {...settings}>
-//             <div>
-//               <h3>1</h3>
-//             </div>
-//             <div>
-//               <h3>2</h3>
-//             </div>
-//             <div>
-//               <h3>3</h3>
-//             </div>
-//             <div>
-//               <h3>4</h3>
-//             </div>
-//             <div>
-//               <h3>5</h3>
-//             </div>
-//             <div>
-//               <h3>6</h3>
-//             </div>
-//           </Slider>
-//         </div>
-//       );
-//     }
-//   }
 
-// export default SimpleSlider;
+class SimpleSlider extends Component {
+
+    render() {
+      const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
+
+      return (
+
+        <div>
+
+            <Slider {...settings}>
+
+                <div className="carousel_slider">
+                    
+                    <div className="carousel_info">
+                        <div className="container">
+                            <h1>MORTAL KOMBAT</h1>
+                            <h2>R$ 299<span>,99</span></h2>
+                            <div className="carousel_text">
+                                <p>Mortal Kombat X combina uma apresentação cinemática única com uma jogabilidade totalmente nova. Os jogadores podem escolher pela primeira vez diversas variantes de cada personagem, afetando tanto a estratégia como o estilo de luta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src={Mortal} alt="Mortal Kombat" />
+
+                </div>
+
+                <div className="carousel_slider">
+                    
+                    <div className="carousel_info">
+                        <div className="container">
+                            <h1>MORTAL KOMBAT</h1>
+                            <h2>R$ 299<span>,99</span></h2>
+                            <div className="carousel_text">
+                                <p>Mortal Kombat X combina uma apresentação cinemática única com uma jogabilidade totalmente nova. Os jogadores podem escolher pela primeira vez diversas variantes de cada personagem, afetando tanto a estratégia como o estilo de luta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src={Red} alt="Red Dead Redemption" />
+
+                </div>
+            
+            </Slider>
+            
+        </div>
+
+      );
+    }
+}
+
+export default SimpleSlider;

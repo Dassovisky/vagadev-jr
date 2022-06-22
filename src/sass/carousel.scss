@@ -1,0 +1,62 @@
+@import 'variaveis';
+
+.carousel_slider{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    .carousel_info{
+        position: absolute;
+        padding: 4rem;
+        text-align: right;
+
+        h1{
+            margin: 0;
+            font-weight: 900;
+            font-size: 3.5rem;
+        }
+
+        h2{
+            margin: 0;
+            color: $color_2;
+            font-weight: 900;
+            font-size: 5rem;
+
+            span{
+                position: relative;
+                top: -27px;
+                font-size: 2.5rem;
+            }
+
+        }
+
+        .carousel_text{
+            width: 41.6%;
+            float: right;
+
+            p{  
+                line-height: 1.6rem;
+            }
+
+        }
+       
+    }
+
+    img{
+        width: 100%;
+    }
+
+}
+
+// .slick-dots{
+//     position: fixed;
+//     width: 5rem;
+//     height: 2rem;
+//     top: 500px;
+//     right: 0;
+//     padding: 0;
+//     background-color: $color_2;
+// }
