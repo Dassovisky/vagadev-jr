@@ -1,25 +1,32 @@
 .no_padding {
   padding: 0; }
 
+.flex-end {
+  display: flex;
+  justify-content: flex-end; }
+
 .footer {
   width: 100%;
   height: auto;
   color: #fff; }
   .footer .logo {
+    width: 31%;
     height: 50px;
+    float: left;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 2%;
     background-color: #084154; }
     .footer .logo img {
       width: 35px;
       height: 25px; }
   .footer .direitos {
+    width: 61%;
     height: 50px;
     display: flex;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 2%;
     background-color: #3EC6E0; }
     .footer .direitos p {
       font-size: .8rem;

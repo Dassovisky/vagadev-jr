@@ -13,43 +13,33 @@ import '../product/product'
 const Header = () => {
 
     return(
-        <div>
+        <>
 
             <header className="header">
                 <div className="container">
-                    <div className="row">
-                    < MenuItem />
-                        <div className="">
-                            
-                                <button className="main_menu_button"><img src={Menu} alt="" />< MenuItem /></button>
-                            
-                        </div>
-                            <div className="main_menu_logo">
-                                <img src={Logo} alt="" />
-                            </div>
 
-                        <div className="col_10 flex-end">
-                            <ul className="main_menu_list">
-                                <a href="google.com">
-                                    <img src={Plane} alt="" />
-                                    <li>CONTATO</li>
-                                </a>
-                                <a href="google.com">
-                                    <img src={Search} alt="" />
-                                    <li>BUSCAR</li>
-                                </a>
-                                <a href="google.com">
-                                    <img src={Bag} alt="" />
-                                    <li className="bag_button"></li>
-                                </a>
-                            </ul>
+                    <div className="header_left">
+                        <div className="header_button">
+                            <button><img src={Menu} alt="icon button" />< MenuItem /></button>
                         </div>
+                        
+                        <div className="header_logo">
+                            <img src={Logo} alt="logo" />
+                        </div>
+                    </div>
 
-                    </div>  
+                    <ul className="header_list">
+                        
+                        <a href="google.com" className="link"><img src={Plane} alt="contato" /><li className="li">CONTATO</li></a>
+                        <a href="google.com" className="link"><img src={Search} alt="procurar" /><li className="li">BUSCAR</li></a>
+                        <a href="google.com" className="link"><img src={Bag} alt="procurar" /><li className="bag_button">1</li></a>
+
+                    </ul>                    
+
                 </div>
             </header>
 
-        </div>
+        </>
     )
 }
 

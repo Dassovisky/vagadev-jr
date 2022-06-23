@@ -7,17 +7,11 @@ const Footer = () => {
         <div>
 
             <footer className="footer">
-                <div className="row">
-                    <div className="col_3 no_padding">
-                        <div className="logo">
-                            <img src={Logo} alt="" />
-                        </div> 
-                    </div>
-                    <div className="col_9 no_padding">
-                        <div className="direitos">
-                            <p>Agência N1 - Todos os direitos reservados</p>
-                        </div>
-                    </div>
+                <div className="logo">
+                    <img src={Logo} alt="footer logo" />
+                </div> 
+                <div className="direitos">
+                    <p>Agência N1 - Todos os direitos reservados</p>
                 </div>
             </footer>
 

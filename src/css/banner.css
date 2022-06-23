@@ -6,12 +6,14 @@
   justify-content: flex-end; }
 
 .justify {
+  margin: -8% 0 0 0;
   display: flex;
   justify-content: center; }
 
+@media (max-width: 768px) {
+  .justify {
+    margin: 0; } }
 .banner {
-  position: relative;
-  margin: -8rem 0 0 0;
   width: 100%;
   height: auto;
   padding: 1rem 0; }

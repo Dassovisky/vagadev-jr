@@ -6,11 +6,13 @@
     color: #fff;
     
     .logo{
+        width: 31%;
         height: 50px;
+        float: left;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding: 0 2rem;
+        padding: 0 2%;
         background-color: $color_1;
 
         img{
@@ -20,10 +22,11 @@
     }
 
     .direitos{
+        width: 61%;
         height: 50px;
         display: flex;
         align-items: center;
-        padding: 0 2rem;
+        padding: 0 2%;
         background-color: $color_2;
 
         p{

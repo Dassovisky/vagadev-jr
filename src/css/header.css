@@ -46,65 +46,107 @@
       color: #fff; }
       .menu_item ul li:hover {
         background-color: #3EC6E0; }
+  @media (max-width: 768px) {
+    .menu_item {
+      position: fixed;
+      width: 85%;
+      height: 100%;
+      top: 63px;
+      left: 0;
+      box-shadow: none;
+      border: 0;
+      border-radius: 0;
+      display: none; }
+      .menu_item .menu {
+        display: flex;
+        flex-direction: column; }
+        .menu_item .menu ul {
+          width: 95%; }
+          .menu_item .menu ul li {
+            padding: .5rem 3rem .5rem 1rem; } }
 
 .header {
   color: #fff;
   background-color: #000; }
-  .header .row {
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .header .header_left {
     display: flex;
     align-items: center; }
-  .header .main_menu_button {
-    border: 0;
-    padding: .6rem .9rem;
-    cursor: pointer;
-    text-align: center;
-    background: transparent;
-    border-radius: 5px;
-    transition: 0.3s ease-in-out;
-    border: 1px solid transparent; }
-    .header .main_menu_button img {
-      width: 1.3rem;
-      transition: 0.3s ease-in-out; }
-    .header .main_menu_button:focus {
-      border-color: #3EC6E0; }
-    .header .main_menu_button:focus .menu_item {
-      display: block; }
-    .header .main_menu_button:hover .menu_item {
-      display: block; }
-  .header .main_menu_logo {
-    width: 8rem;
-    height: auto;
-    padding: 1.2rem 0 1.2rem 1rem; }
-    .header .main_menu_logo img {
-      width: 100%;
-      height: auto; }
-  .header .main_menu_list {
+    .header .header_left .header_button {
+      float: left; }
+      .header .header_left .header_button button {
+        border: 0;
+        padding: .6rem .9rem;
+        cursor: pointer;
+        text-align: center;
+        background: transparent;
+        border-radius: 5px;
+        transition: 0.3s ease-in-out;
+        border: 1px solid transparent; }
+        .header .header_left .header_button button img {
+          width: 1.3rem;
+          transition: 0.3s ease-in-out; }
+        .header .header_left .header_button button:focus {
+          border-color: #3EC6E0; }
+        .header .header_left .header_button button:focus .menu_item {
+          display: block; }
+        .header .header_left .header_button button:hover .menu_item {
+          display: block; }
+    .header .header_left .header_logo {
+      width: 8rem;
+      height: auto;
+      padding: 1.2rem 0 1.2rem 1rem; }
+      .header .header_left .header_logo img {
+        width: 100%;
+        height: auto; }
+    @media (max-width: 768px) {
+      .header .header_left .header_button button {
+        border: none;
+        margin: 0 1rem 0 0; }
+        .header .header_left .header_button button img {
+          width: 1.2rem; }
+        .header .header_left .header_button button:focus > .header {
+          background-color: #3EC6E0; }
+      .header .header_left .header_logo {
+        width: 6rem;
+        height: auto;
+        padding: 1.2rem 0; }
+        .header .header_left .header_logo img {
+          width: 100%;
+          height: auto; } }
+  .header .header_left {
+    display: flex;
+    align-items: center; }
+  .header .header_list {
     margin: 0;
     list-style-type: none;
     display: inline-block; }
-    .header .main_menu_list a {
+    .header .header_list .link {
       text-decoration: none;
       color: #fff;
       border-right: 1px solid #fff;
       margin: 0 3rem 0 0;
       padding: .3rem 3rem .3rem 0; }
-      .header .main_menu_list a:last-child {
+      .header .header_list .link:last-child {
         margin: 0;
         padding: 0; }
-      .header .main_menu_list a:last-child {
+      .header .header_list .link:last-child {
         border: 0; }
-    .header .main_menu_list img {
+    .header .header_list img {
       position: relative;
       top: 5px;
       width: 1.3rem;
       margin: 0 .5rem 0 0; }
-    .header .main_menu_list li {
+    .header .header_list li {
       width: auto;
       font-size: .9rem;
       font-weight: bold;
       display: inline-block;
       list-style-type: none; }
-    .header .main_menu_list .bag_button {
+    .header .header_list .bag_button {
       position: relative;
       left: -5px;
       width: 20px;
@@ -112,3 +154,11 @@
       text-align: center;
       border-radius: 50%;
       background-color: #3EC6E0; }
+    @media (max-width: 768px) {
+      .header .header_list {
+        margin: -5px 0 0 0; }
+        .header .header_list .li {
+          display: none; }
+        .header .header_list .link {
+          margin: 0 .5rem 0 0;
+          padding: .0rem .1rem .0rem 0; } }

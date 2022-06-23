@@ -8,7 +8,7 @@ const Banner = () => {
         <div>
 
             <div className="container">
-                <div className="row justify">
+                <div className="justify">
                     <div className="col_5">
                         <div className="banner">
                             <img src={Zelda} alt="" />
