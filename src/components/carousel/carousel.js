@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
-import '../../css/carousel.css'
+import './carousel.css'
 
 
 class SimpleSlider extends Component {
@@ -10,8 +10,8 @@ class SimpleSlider extends Component {
         dots: true,
         infinite: true,
         speed: 500,
-        // autoplay: true,
-        // autoplaySpeed: 5000,
+        autoplay: true,
+        autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1
       };
@@ -48,9 +48,9 @@ class SimpleSlider extends Component {
 
                     </div>
                 </div>
-            
+
             </Slider>
-            
+
         </>
       );
     }

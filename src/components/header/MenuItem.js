@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/menu-item.css'
+import './menu-item.css'
 
 
 const MenuItem = () => {
@@ -15,6 +15,7 @@ const MenuItem = () => {
                         <a href="google.com.br"><li>Killer Instict</li></a>
                         <a href="google.com.br"><li>DBZ Kakarot</li></a>
                     </ul>
+                        <div className="line"></div>
                     <ul>
                         <li className="menu_item_category">Ação / Aventura</li>
                         <a href="google.com.br"><li>GTA V</li></a>
@@ -22,6 +23,7 @@ const MenuItem = () => {
                         <a href="google.com.br"><li>HALO</li></a>
                         <a href="google.com.br"><li>Call Of Duty</li></a>
                     </ul>
+                        <div className="line"></div>
                     <ul>
                         <li className="menu_item_category">Corrida</li>
                         <a href="google.com.br"><li>NEED for SPEED</li></a>

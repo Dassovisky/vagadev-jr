@@ -17,8 +17,13 @@
 
         .header_button{
             float: left;
-    
-            button{
+            
+            .header_button_close{
+                display: none;
+                @extend .header_button_menu;
+            }
+            
+            .header_button_menu{
                 border: 0;
                 padding: .6rem .9rem;
                 cursor: pointer;
@@ -63,9 +68,13 @@
         // MOBILE 
         @media (max-width: 768px) {
             
+            .menu_item{
+                display: none;
+            }
+            
             .header_button{
 
-                button{
+                .header_button_menu{
                     border: none;
                     margin: 0 1rem 0 0;
 
@@ -73,10 +82,10 @@
                         width: 1.2rem;
                     }
 
-                    &:focus > .header{
-                        background-color: $color_2;
+                    &:focus + .menu_item{
+                        display: block;
                     }
-
+                  
                 }
 
             }
@@ -153,6 +162,11 @@
         @media (max-width: 768px) {
             
             margin: -5px 0 0 0;
+            
+            .bag_button{
+                top: -7px;
+                left: -15px;
+            }
 
             .li{
                 display: none;

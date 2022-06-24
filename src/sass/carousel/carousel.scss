@@ -4,11 +4,11 @@
     z-index: 1;
 }
 .slick-next{
-    position: fixed;
+    position: absolute;
     right: 10px !important;
 }
 .slick-prev{
-    position: fixed;
+    position: absolute;
     left: 10px !important;
 }
 .slick-dots{

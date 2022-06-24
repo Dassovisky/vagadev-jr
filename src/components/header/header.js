@@ -1,8 +1,9 @@
 import React from 'react'
-import '../../css/header.css'
-import '../../css/menu-item.css'
+import './header.css'
+import './menu-item.css'
 import Logo from '../../assets/img/Logo_N1_Rush.png'
 import Menu from '../../assets/icons/menu.png'
+import Close from '../../assets/icons/close.png'
 import Plane from '../../assets/icons/paper-plane.png'
 import Search from '../../assets/icons/search-solid.png'
 import Bag from '../../assets/icons/shopping-bag-solid.png'
@@ -20,7 +21,8 @@ const Header = () => {
 
                     <div className="header_left">
                         <div className="header_button">
-                            <button><img src={Menu} alt="icon button" />< MenuItem /></button>
+                            <button className="header_button_menu"><img src={Menu} alt="icon button" />< MenuItem /></button>
+                            <button className="header_button_close"><img src={Close} alt="icon button" /></button>
                         </div>
                         
                         <div className="header_logo">

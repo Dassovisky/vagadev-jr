@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../css/product.css'
+import './product.css'
 import Square from '../../assets/icons/square.png'
 import Outriders from '../../assets/img/product-outriders.png'
 import Cyberpunk from '../../assets/img/product-cyberpunk2077.png'
@@ -13,13 +13,13 @@ const Product = () => {
     const [state2, setState2] = useState(false);
     const [state3, setState3] = useState(false);
 
-    const toogle1 = () => {
+    const toggle1 = () => {
         setState1(!state1)
     }
-    const toogle2 = () => {
+    const toggle2 = () => {
         setState2(!state2)
     }
-    const toogle3 = () => {
+    const toggle3 = () => {
         setState3(!state3)
     }
     
@@ -38,7 +38,7 @@ const Product = () => {
                                 <div className="pricebox">
                                     <h5>Outriders</h5>
                                     <p>R$ 200,00</p>
-                                    <button className={"button_default" + (state1 ? " button_mario" : "")} onClick={toogle1}>{state1 ? "COMPRADO!" : "COMPRAR"} 
+                                    <button className={"button_default" + (state1 ? " button_mario" : "")} onClick={toggle1}>{state1 ? "COMPRADO!" : "COMPRAR"} 
                                         <img src={Mario} alt="" className={"img_mario" + (state1 ? " img_mario_toggle" : "")}/>
                                         <ProductBuy />
                                     </button>
@@ -51,7 +51,7 @@ const Product = () => {
                                 <div className="pricebox">
                                     <h5>CYBERPUNK 2077</h5>
                                     <p>R$ 200,00</p>
-                                    <button className={"button_default" + (state2 ? " button_mario" : "")} onClick={toogle2}>{state2 ? "COMPRADO!" : "COMPRAR"} 
+                                    <button className={"button_default" + (state2 ? " button_mario" : "")} onClick={toggle2}>{state2 ? "COMPRADO!" : "COMPRAR"} 
                                         <img src={Mario} alt="" className={"img_mario" + (state2 ? " img_mario_toggle" : "")}/>
                                         <ProductBuy />
                                     </button>
@@ -65,7 +65,7 @@ const Product = () => {
                                 <div className="pricebox">
                                     <h5>Donkey Kong Country Tropical Freeze</h5>
                                     <p>R$ 200,00</p>
-                                    <button className={"button_default" + (state3 ? " button_mario" : "")} onClick={toogle3}>{state3 ? "COMPRADO!" : "COMPRAR"} 
+                                    <button className={"button_default" + (state3 ? " button_mario" : "")} onClick={toggle3}>{state3 ? "COMPRADO!" : "COMPRAR"} 
                                         <img src={Mario} alt="" className={"img_mario" + (state3 ? " img_mario_toggle" : "")}/>
                                         <ProductBuy />
                                     </button>

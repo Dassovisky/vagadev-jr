@@ -14,6 +14,10 @@
     box-shadow: 10px 10px 0px -1px rgba(62,198,224,1);
     display: none;
 
+    .line{
+        display: none;
+    }
+
     a {
         color: #fff;
         text-decoration: none;
@@ -54,24 +58,41 @@
     @media (max-width: 768px) {
 
         position: fixed;
-        width: 85%;
+        width: 100%;
         height: 100%;
         top: 63px;
         left: 0;
+        padding: 0;
         box-shadow: none;
         border: 0;
         border-radius: 0;
-        display: none;
+        display: block;
+        z-index: 2;
         
         .menu{
             display: flex;
             flex-direction: column;
 
+            .line{
+                width: auto;
+                height: 1px;
+                display: block;
+                color: #fff;
+                margin: .5rem 1.5rem;
+                border-bottom: 1px solid #062C38;
+            }
+
             ul{
-                width: 95%;
+                margin: 0;
+                padding: 1rem 2rem 2rem 2rem;
+            
+                .menu_item_category{
+                    font-size: 1.6rem;
+                }
 
                 li{
-                    padding: .5rem 3rem .5rem 1rem;
+                    font-size: 1rem;
+                    padding: .5rem 1.5rem;
                 }
 
             }

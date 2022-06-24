@@ -9,11 +9,11 @@
   z-index: 1; }
 
 .slick-next {
-  position: fixed;
+  position: absolute;
   right: 10px !important; }
 
 .slick-prev {
-  position: fixed;
+  position: absolute;
   left: 10px !important; }
 
 .slick-dots {
@@ -22,14 +22,14 @@
 .carousel_slider {
   color: #fff; }
   .carousel_slider .carousel_bg2 {
-    background-image: url("../assets/img/principal_banner_desktop_02.jpg") !important; }
+    background-image: url("../../assets/img/principal_banner_desktop_02.jpg") !important; }
   .carousel_slider .carousel_bg1, .carousel_slider .carousel_bg2 {
     width: 100%;
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/img/principal_banner_desktop.jpg");
+    background-image: url("../../assets/img/principal_banner_desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
     .carousel_slider .carousel_bg1 .carousel_info, .carousel_slider .carousel_bg2 .carousel_info {
@@ -77,11 +77,11 @@
           line-height: 1rem !important; } }
   @media (max-width: 768px) {
     .carousel_slider .carousel_bg2 {
-      background-image: url("../assets/img/principal_banner_mobile_02.jpg") !important; }
+      background-image: url("../../assets/img/principal_banner_mobile_02.jpg") !important; }
     .carousel_slider .carousel_bg1, .carousel_slider .carousel_bg2 {
       height: 500px;
       align-items: flex-end;
-      background-image: url("../assets/img/principal_banner_mobile.jpg"); }
+      background-image: url("../../assets/img/principal_banner_mobile.jpg"); }
       .carousel_slider .carousel_bg1 .carousel_info, .carousel_slider .carousel_bg2 .carousel_info {
         padding: 1.5rem;
         background-color: rgba(0, 0, 0, 0.65); }

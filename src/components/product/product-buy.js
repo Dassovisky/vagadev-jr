@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/product-buy.css'
+import './product-buy.css'
 import Mario from '../../assets/icons/mario.png'
 
 
