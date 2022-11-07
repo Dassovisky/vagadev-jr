@@ -1,3 +1,7 @@
+![alt text](https://github.com/dassatavares/vagadev-jr/blob/main/src/images/1.png)
+![alt text](https://github.com/dassatavares/vagadev-jr/blob/main/src/images/2.png)
+![alt text](https://github.com/dassatavares/vagadev-jr/blob/main/src/images/3.png)
+
 # Avaliação Front-End JR N1 #
 
 Leia atentamente até o final.
